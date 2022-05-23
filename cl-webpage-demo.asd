@@ -2,10 +2,12 @@
   :version "0.1.0"
   :author "Sam Johnson (she/her)"
   :license "AGPLv3 or later"
-  :depends-on ("spinneret"
-               "parenscript"
-               "lass"
-               "clack")
+  :depends-on (#:spinneret
+               #:parenscript
+               #:lass
+               #:hunchentoot
+               #:find-port
+               #:log4cl)
   :components ((:module "src"
                 :components
                 ((:file "main"))))
